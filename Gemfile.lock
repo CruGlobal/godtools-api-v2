@@ -65,7 +65,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2, >= 2.2.2)
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     adobe-campaign (0.4.0)
       activesupport (>= 3.1.0)
@@ -255,7 +255,7 @@ GEM
     notiffany (0.1.3)
       nenv (~> 0.1)
       shellany (~> 0.0)
-    oj (3.12.0)
+    oj (3.12.1)
     os (1.1.1)
     ougai (2.0.0)
       oj (~> 3.10)
@@ -477,7 +477,7 @@ DEPENDENCIES
   jwt
   listen (~> 3.5)
   lograge
-  oj (~> 3.12.0)
+  oj (~> 3.12.1)
   ougai (~> 2.0)
   pg
   pry-byebug
@@ -506,7 +506,7 @@ DEPENDENCIES
   webmock
 
 RUBY VERSION
-   ruby 2.7.3p183
+   ruby 2.7.4p191
 
 BUNDLED WITH
    2.1.4

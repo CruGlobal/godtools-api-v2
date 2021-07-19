@@ -1,0 +1,11 @@
+{
+    "extends": ["config:base"],
+    "enabledManagers": ["ruby-version"],
+    "packageRules": [
+        {
+            "matchManagers": ["ruby-version"],
+            "matchPackageNames": ["ruby"],
+            "allowedVersions": "< 2.8"
+        }
+    ]
+}

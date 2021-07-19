@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "2.7.3"
+ruby "2.7.4"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem "rails", "~> 6.0.3"
@@ -69,7 +69,7 @@ gem "google-api-client", "~> 0.53", require: "google/apis/analyticsreporting_v4"
 gem "httparty"
 gem "jwt"
 gem "lograge"
-gem "oj", "~> 3.12.0"
+gem "oj", "~> 3.12.1"
 gem "ougai", "~> 2.0"
 gem "raddocs"
 gem "redis"
